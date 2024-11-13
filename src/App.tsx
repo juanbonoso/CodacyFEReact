@@ -17,6 +17,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          <div>{'I am a lost div with erronous code ' + 1}</div>
         </a>
       </header>
     </div>
