@@ -1,6 +1,5 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -17,8 +16,13 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-          <div>{'I am a lost div with erronous code ' + 1}</div>
+          <div>{"I am a lost div with erronous code " + 1}</div>
         </a>
+
+        <div>
+          <p> I am a bug!</p>
+          <div dangerouslySetInnerHTML={{__html: '<p>First &middot; Second</p>'}}></div>
+        </div>
       </header>
     </div>
   );
