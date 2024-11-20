@@ -1,6 +1,6 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react"; // This line can be removed if using React 17+
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -16,8 +16,14 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React 2
+          <div>{"I am a lost div with erronous code " + 1}</div>
         </a>
+
+        <div>
+          <p> I am a bug!</p>
+          <div dangerouslySetInnerHTML={{__html: '<p>First &middot; Second</p>'}}></div>
+        </div>
       </header>
     </div>
   );
