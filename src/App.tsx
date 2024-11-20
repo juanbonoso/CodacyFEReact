@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"; // This line can be removed if using React 17+
 import logo from "./logo.svg";
 import "./App.css";
 
