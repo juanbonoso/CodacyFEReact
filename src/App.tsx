@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React 2
           <div>{"I am a lost div with erronous code " + 1}</div>
         </a>
 
